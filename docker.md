@@ -39,7 +39,12 @@ Options:
 docker run [image id]
 ```
 
-Run docker image with multiple/ custom ports:
+Run docker image with custom ports:
 ```
 docker run -p [NEW PORT]:[APP PORT] [image id]
+```
+
+Run multiple docker images:
+```
+docker run -p [NEW PORT]:[OLD PORT] -d [image id]
 ```
