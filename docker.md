@@ -48,3 +48,8 @@ Run multiple docker images:
 ```
 docker run -p [NEW PORT]:[OLD PORT] -d [image id]
 ```
+
+To stop docker container:
+```
+docker container stop [container_id
+```
